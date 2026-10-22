@@ -1,0 +1,339 @@
+/* Simple CSS for my portfolio */
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #222222;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #174ea6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.page-width {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.site-header {
+    background-color: #222222;
+    padding: 20px 7.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #f4b400;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+}
+
+.nav-links .active {
+    color: #f4b400;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 0;
+}
+
+.hero-copy {
+    max-width: 600px;
+}
+
+.eyebrow,
+.section-kicker,
+.card-label,
+.skill-number {
+    color: #666666;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+h1 em {
+    color: #174ea6;
+    font-style: normal;
+}
+
+.intro,
+.editable-copy,
+.heading-note {
+    color: #555555;
+    line-height: 1.7;
+}
+
+.hero-actions {
+    margin-top: 25px;
+}
+
+.button {
+    background-color: #174ea6;
+    color: white;
+    padding: 12px 18px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #0d3573;
+    text-decoration: none;
+}
+
+.text-link {
+    margin-left: 20px;
+}
+
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    margin-right: 20px;
+}
+
+.hero-card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 30px;
+    width: 280px;
+    height: 250px;
+}
+
+.avatar {
+    background-color: #f4b400;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero-card h2 span {
+    color: #174ea6;
+}
+
+.card-footer {
+    border-top: 1px solid #dddddd;
+    padding-top: 15px;
+    margin-top: 25px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.quick-facts {
+    display: flex;
+    gap: 50px;
+    border-top: 1px solid #cccccc;
+    padding: 25px 0;
+}
+
+.quick-facts strong {
+    color: #174ea6;
+    margin-right: 10px;
+}
+
+.site-footer {
+    border-top: 1px solid #cccccc;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #666666;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-page {
+    padding: 60px 0;
+    min-height: 500px;
+}
+
+.page-heading {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.page-heading h1 {
+    margin: 10px 0;
+}
+
+.about-layout,
+.contact-layout {
+    display: flex;
+    gap: 50px;
+}
+
+.portrait-placeholder {
+    background-color: #222222;
+    color: white;
+    min-width: 280px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 30px;
+}
+
+.hobby-box {
+    border-top: 1px solid #cccccc;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill-card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    min-height: 150px;
+}
+
+.skill-card h2 {
+    color: #174ea6;
+}
+
+.skill-card p {
+    color: #555555;
+    line-height: 1.6;
+}
+
+.accent-card {
+    background-color: #e8eef9;
+}
+
+.tags {
+    margin-top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #e8eef9;
+    border: 1px solid #174ea6;
+    color: #174ea6;
+    padding: 7px 10px;
+    margin: 4px;
+    font-size: 13px;
+}
+
+.contact-lead {
+    font-size: 23px;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+.contact-details {
+    margin-top: 35px;
+}
+
+.contact-details p {
+    border-bottom: 1px solid #cccccc;
+    padding: 15px 0;
+    max-width: 450px;
+}
+
+.contact-details span {
+    display: inline-block;
+    width: 100px;
+    color: #666666;
+}
+
+.contact-card {
+    background-color: white;
+    border: 1px solid #cccccc;
+    padding: 25px;
+    width: 300px;
+}
+
+.profile-link {
+    display: block;
+    border-bottom: 1px solid #dddddd;
+    padding: 18px 0;
+    font-size: 18px;
+}
+
+@media (max-width: 700px) {
+    .site-header,
+    .hero,
+    .about-layout,
+    .contact-layout {
+        display: block;
+    }
+
+    .nav-links {
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .hero-card {
+        margin-top: 35px;
+        width: auto;
+    }
+
+    .quick-facts {
+        display: block;
+    }
+
+    .quick-facts div {
+        margin: 12px 0;
+    }
+
+    .portrait-placeholder,
+    .contact-card {
+        margin-bottom: 30px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .site-footer {
+        display: block;
+        line-height: 2;
+    }
+}
